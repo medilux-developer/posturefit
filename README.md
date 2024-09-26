@@ -74,13 +74,13 @@ tailwindcss를 모듈화하여 사용하고 싶어 제작한 함수입니다. st
 예시:
 
 ```javascript
-	import { cn } from "fast-jsx"
-	...
- 	const container = {
-    displays: "flex flex-col gap-y-3.5 justify-center items-center",
-    sizes: "w-full min-h-screen",
-    boundaries: "px-7.5",
-  };
+import { cn } from "fast-jsx"
+...
+const container = {
+	displays: "flex flex-col gap-y-3.5 justify-center items-center",
+	sizes: "w-full min-h-screen",
+	boundaries: "px-7.5",
+};
 
-	return <div className={cn(container)}>{...}</div>
+return <div className={cn(container)}>{...}</div>
 ```
