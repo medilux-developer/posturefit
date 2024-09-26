@@ -1,4 +1,4 @@
-export const checks = [
+export const checks: string[] = [
   "1. 머리가 앞으로 기울어져 있지 않은가요?",
   "2. 어깨가 앞으로 기울어져 있지 않은가요?",
   "3. 등이 둥글지 않은가요?",

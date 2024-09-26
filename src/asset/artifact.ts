@@ -1,11 +1,4 @@
-type Size = "M" | "XL";
-interface Artifact {
-  name: string;
-  link: string;
-  method: string;
-  isValid: boolean;
-  sizes?: Size[];
-}
+import { Artifact } from "@/interface/Artifact";
 
 export const artifacts: Artifact[] = [
   {

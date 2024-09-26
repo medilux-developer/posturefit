@@ -1,7 +1,5 @@
-interface Article {
-  title: string;
-  description: string[];
-}
+import { Article } from "@/interface/Article";
+
 export const articles: Article[] = [
   {
     title: "당신은 척추측만증입니다.",

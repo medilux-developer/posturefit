@@ -5,7 +5,6 @@ export default function RootPage() {
   const router = useNavigate();
   return (
     <div>
-      <Header />
       <div className="text-3xl font-bold ">랜딩페이지</div>
       <div className="text-3xl font-bold mt-16">전문가의 진단</div>
       <div className="flex gap-x-3.5 p-3.5">
