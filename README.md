@@ -11,7 +11,7 @@
 # installation
 npm install
 
-# run dev-mode
+# run development-mode
 npm run dev
 ```
 
